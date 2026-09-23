@@ -66,3 +66,34 @@ th, td {
     width: 800px;
     height: auto;
 }
+
+/* Estilização da Página Contatos */
+
+form {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.titulo-contato {
+    text-align: center;
+}
+.titulo-contato p {
+    text-indent: 0;
+}
+.contato {
+    width: 100%;
+}
+.titulo-contato p {
+    text-indent: 0;
+    max-width: none;
+}
+.imagem-contato {
+    width: 700px;
+    height: auto;
+    margin: 40px auto 0;
+    display: block;
+}
