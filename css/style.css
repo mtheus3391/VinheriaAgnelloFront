@@ -1,4 +1,5 @@
 /* Estilizando o projeto Vinheria Agnello */
+/* Home */
 
 body {
     margin: 0;
@@ -35,6 +36,8 @@ footer {
     text-align: center;
     padding: 20px;
     font-size: 14px
+
+    /* Estilizando a página História */
 }
 main p {
     line-height: 1.6;
@@ -47,6 +50,9 @@ section p {
     margin-bottom: 20px;
     line-height: 1.6;
 }
+
+/* Estilizando a página Produtos */
+
 .imagem-produto {
     width: 100%;
     max-width: 350px;
@@ -62,6 +68,9 @@ th, td {
     padding: 10px;
     text-align: left;
 }
+
+/* Estilizando a página Harmonização */
+
 .imagem-harmonizacao {
     width: 800px;
     height: auto;
