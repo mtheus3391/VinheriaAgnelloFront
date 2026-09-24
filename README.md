@@ -11,5 +11,4 @@ Este projeto apresenta o site da **Vinheria Agnello**, que conta sobre a histór
 - Rafael Farias Feitosa
 
 ## Site publicado
-
-[Acesse o site da Vinheria Agnello no GitHub Pages](https://SEU-USUARIO.github.io/VinheriaAgnelloFront/)
+https://mtheus3391.github.io/VinheriaAgnelloFront/
