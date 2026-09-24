@@ -3,30 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com a Vinheria Agnello para conhecer nossos produtos e serviços.">
+    <meta name="keywords" content="contato, Vinheria Agnello, atendimento, loja de vinhos, e-commerce de vinhos">
     <title>Contato - Vinheria Agnello</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Vinheria Agnello</h1>
+    <header id="cabecalho-principal" class="cabecalho-site">
+        <h1 class="titulo-site">Vinheria Agnello</h1>
         
-        <nav>
-        <a href="../../index.html">Home</a>
-        <a href="historia.html">Nossa História</a>
-        <a href="produtos.html">Produtos</a>
-        <a href="galeria.html">Harmonização</a>
-        <a href="contato.html">Contato</a>
+        <nav id="navegacao-principal" class="navegacao-site">
+        <a class="link-navegacao" href="../../index.html">Home</a>
+        <a class="link-navegacao" href="historia.html">Nossa História</a>
+        <a class="link-navegacao" href="produtos.html">Produtos</a>
+        <a class="link-navegacao" href="galeria.html">Harmonização</a>
+        <a class="link-navegacao" href="contato.html">Contato</a>
         </nav>
     </header>
 
-    <main>
-        <section class="contato">
-            <div class="titulo-contato">
-            <h2>Entre em Contato</h2>
-            <p>Estamos à disposição para esclarecer dúvidas, receber sugestões ou atender a solicitações de nossos clientes.</p>
+    <main id="conteudo-principal" class="conteudo-site">
+        <section id="secao-contato" class="secao-site contato">
+            <div class="cabecalho-secao">
+            <h2 class="titulo-secao">Entre em Contato</h2>
+            <p class="texto-secao">Estamos à disposição para esclarecer dúvidas, receber sugestões ou atender a solicitações de nossos clientes.</p>
             </div>
 
-            <form action="enviar_contato.php" method="post">
+            <form id="formulario-contato" class="formulario-contato" action="enviar_contato.php" method="post">
                 <label for="nome">Nome:</label><br>
                 <input type="text" id="nome" name="nome" required><br>
 
@@ -36,15 +38,16 @@
                 <label for="mensagem">Mensagem:</label><br>
                 <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br>
 
-                <button type="submit">Enviar</button><br>
+                <button class="botao" type="submit">Enviar</button><br>
             </form>
             <div class="imagem-contato">
-            <img src="../assets/imgs/colecao_vinhos.jpg" alt="Contato Vinheria Agnello">
+            <img class="imagem-secao" src="../assets/imgs/colecao_vinhos.jpg" alt="Contato Vinheria Agnello">
             </div>
         </section>
+    </main>
 
-    <footer>
-        <p>&copy; 2026 Vinheria Agnello - Todos os direitos reservados.</p>
+    <footer id="rodape-site" class="rodape-site">
+        <p class="texto-rodape">&copy; 2026 Vinheria Agnello - Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
