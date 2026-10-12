@@ -73,3 +73,13 @@ table tr:hover {
     font-weight: bold;
     color: #722f37;
 }
+
+::selection {
+    background-color: #ec8585;
+    color: #2b1b17;
+}
+
+.botao:active {
+    transform: scale(0.95);
+    background-color: #480b0b;
+}
