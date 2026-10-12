@@ -16,10 +16,16 @@ table tr:nth-child(even) {
 h2::before {
     content: "";
     display: inline-block;
-    width: 9px;
+    width: 5px;
     height: 20px;
-    background-color: #480b0b;
+    background-color: #722f37;
     margin-right: 10px;
+
+    transition: transform 0.3s ease;
+}
+
+h2:hover::before {
+    transform: skewX(-20deg);
 }
 
 nav a::after {
@@ -48,4 +54,12 @@ nav a:hover::after {
 }
 .imagem-secao {
     animation: entradaImagem 1s ease-out;
+}
+
+table tr {
+    transition: transform 0.3s ease;
+}
+
+table tr:hover {
+    transform: scale(1.04);
 }
