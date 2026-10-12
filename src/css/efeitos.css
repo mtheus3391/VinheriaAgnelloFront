@@ -41,6 +41,10 @@ nav a:hover::after {
     width: 100%;
 }
 
+.botao:not(:hover) {
+    opacity: 0.9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
 @keyframes entradaImagem {
     from {
         opacity: 0;
@@ -62,4 +66,10 @@ table tr {
 
 table tr:hover {
     transform: scale(1.04);
+}
+
+#secao-historia p:first-of-type::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    color: #722f37;
 }

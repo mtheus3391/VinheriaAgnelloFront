@@ -40,3 +40,9 @@ https://mtheus3391.github.io/VinheriaAgnelloFront/
 
 - scale: Para a linha inteira aumentar levemente na tabela de harmonização quando passar o mouse; - página Harmonização. 
 - skew: Quando passar o mouse sobre “Vinhos e Queijos”, por exemplo, a barrinha vai inclinar suavemente; - todas as páginas.
+
+## Estrutura do Projeto (Páginas)
+- **Home:** Página inicial com o banner animado e destaques.
+- **Nossa História:** Conta a trajetória da Vinheria Agnello.
+- **Harmonização:** Tabela interativa com dicas de combinações de vinhos e queijos.
+- **Contato:** Formulário de atendimento ao cliente.
