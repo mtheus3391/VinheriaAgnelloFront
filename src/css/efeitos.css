@@ -8,3 +8,44 @@ input:focus,
 textarea:focus {
     outline: 2px solid #722f37;
 }
+
+table tr:nth-child(even) {
+    background-color: #ebccccfa;
+}
+
+h2::before {
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 20px;
+    background-color: #480b0b;
+    margin-right: 10px;
+}
+
+nav a::after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 2px;
+    background-color: #ec8585;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+@keyframes entradaImagem {
+    from {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.imagem-secao {
+    animation: entradaImagem 1s ease-out;
+}
