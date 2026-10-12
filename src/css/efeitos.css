@@ -3,3 +3,8 @@
 nav a:hover {
     color: rgb(154, 113, 113);
 }
+
+input:focus,
+textarea:focus {
+    outline: 2px solid #722f37;
+}

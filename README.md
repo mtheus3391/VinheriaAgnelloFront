@@ -12,3 +12,8 @@ Este projeto apresenta o site da **Vinheria Agnello**, que conta sobre a histór
 
 ## Site publicado
 https://mtheus3391.github.io/VinheriaAgnelloFront/
+
+## Efeitos aplicados 
+
+- hover: mudar ao passar o mouse sobre os links da páginas com a cor "rgb(154, 113, 113);"
+
