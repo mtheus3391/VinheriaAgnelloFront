@@ -15,7 +15,7 @@ https://mtheus3391.github.io/VinheriaAgnelloFront/
 ##
 
 
-## EFEITOS APLICADOS:
+##                                               EFEITOS APLICADOS:
 
 ## Pseudo-classes:
 
