@@ -44,5 +44,6 @@ https://mtheus3391.github.io/VinheriaAgnelloFront/
 ## Estrutura do Projeto (Páginas)
 - **Home:** Página inicial com o banner animado e destaques.
 - **Nossa História:** Conta a trajetória da Vinheria Agnello.
+- **Produtos:** Nossa seleção dos vinhos mais apreciados pelos nossos clientes.
 - **Harmonização:** Tabela interativa com dicas de combinações de vinhos e queijos.
 - **Contato:** Formulário de atendimento ao cliente.
